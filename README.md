@@ -24,7 +24,3 @@ Tampilan data yang telah disorting dengan SAW
 
 Tampilan data yang telah disorting dengan WP
 ![get wp](https://github.com/Salsabilaasya/UAS_SPK/assets/137993605/78bb3a84-9b46-41b0-ba24-68e69f6bfca1)
-
-
-
-![get wp](https://github.com/Salsabilaasya/UAS_SPK/assets/137993605/f259eb54-5e83-4d02-a6a8-a90d4091e273)
