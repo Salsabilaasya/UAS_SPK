@@ -1,43 +1,30 @@
-# UAS spk_web
+File yang digunakan untuk uas yaitu:
 
-## Install requirements
+requirements.txt engine.py settings.py models.py main.py Python : 3.11.2
 
-    pip install -r requirements.txt
+DB : PostgreSQL 14
 
-## Run the app
-to run the web app simply  use
+Postman : Thunder Client
 
-    python main.py
+Method POST
 
-## Usage
-Install postman 
-https://www.postman.com/downloads/
+Tampilan data yang telah disorting berdasarkan Score dengan SAW
+![post saw](https://github.com/Salsabilaasya/UAS_SPK/assets/137993605/51bc915c-9536-4e5d-8be5-96a723e6c729)
 
-get ponsel list
-<img src='img/get_ponsel.png' alt='ponsel list'/>
+Tampilan data yang telah disorting berdasarkan Score dengan WP
+![post wp](https://github.com/Salsabilaasya/UAS_SPK/assets/137993605/13668feb-694c-443d-aa81-e4831af55b9b)
 
-get recommendations saw
-<img src='img/get_saw.png' alt='recommendations saw'/>
+Method GET
 
-get recommendations wp
-<img src='img/get_wp.png' alt='recommendations wp'/>
+Tampilan data Pada Restoran berdasarkan id
+![get restoran](https://github.com/Salsabilaasya/UAS_SPK/assets/137993605/bcfa55e9-32e1-4767-be87-fb55444aa61f)
 
-### TUGAS UAS
-Implementasikan model yang sudah anda buat ke dalam web api dengan http method `POST`
+Tampilan data yang telah disorting dengan SAW
+![get saw](https://github.com/Salsabilaasya/UAS_SPK/assets/137993605/ddd6ab68-361e-4b8c-bb77-8d7a0574e06a)
 
-INPUT:
-{
-    "harga": 1, 
-    "kualitas_kamera": 2, 
-    "kapasitas_baterai": 5, 
-    "kinerja": 3, 
-    "ukuran_layar": 4
-}
+Tampilan data yang telah disorting dengan WP
+![get wp](https://github.com/Salsabilaasya/UAS_SPK/assets/137993605/78bb3a84-9b46-41b0-ba24-68e69f6bfca1)
 
-OUTPUT (diurutkan / sort dari yang terbesar ke yang terkecil):
 
-post recommendations saw
-<img src='img/post_saw.png' alt='recommendations saw'/>
 
-post recommendations wp
-<img src='img/post_wp.png' alt='recommendations wp'/>
+![get wp](https://github.com/Salsabilaasya/UAS_SPK/assets/137993605/f259eb54-5e83-4d02-a6a8-a90d4091e273)
